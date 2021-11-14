@@ -1,0 +1,11 @@
+.editIcon{
+    /* position: absolute; */
+    right: auto;
+
+}
+.fa-edit ,.fa-trash-alt{
+    font-size: 20px;
+}
+.fa-edit, .fa-trash-alt:hover{
+    cursor: pointer ;
+}

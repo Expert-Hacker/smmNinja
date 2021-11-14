@@ -1,0 +1,38 @@
+.ad_landingpagediv1{
+    display: flex;
+}
+.ad_left{
+    background-color: rgb(245, 245, 245);
+    flex: 2;
+    height: auto;
+
+  
+}
+.ad_right{
+    background-color: rgb(255, 255, 255);
+    flex: 10;
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+.ad_options{
+    font-family: 'Montserrat',sans-serif;
+    line-height: 3rem;
+    font-size: 16px;
+    font-weight: 550;
+}
+.ad_options:hover{
+    background-color:rgb(237, 240, 250);
+    cursor: pointer;
+}
+.select_ad{
+    background-color:rgb(215, 216, 253);
+    font-weight: 600;
+}
+.users_ad{
+    overflow-y: auto;
+    overflow-x: auto;
+}
+.dummy_div2{
+    overflow: auto;
+}

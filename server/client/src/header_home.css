@@ -1,0 +1,43 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.w-100{
+    z-index: 9999999999 !important;
+}
+.header{
+   
+    background: #00c6ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+}
+
+.header li{
+    color: white;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-right: 20px;
+}
+a:hover{
+    color: rgb(235, 235, 235);
+    /* border-bottom: 2px solid rgb(255, 255, 255); */
+}
+.header .d-flex  li{
+    padding: 10px;
+}
+/* ------------------------------- media query ------------------------------ */
+@media only screen and (max-width:400px) {
+    .header ul div li img{
+        height: 40px !important;
+        width: 40px !important;
+    }
+    a{
+        font-size: 18px;
+        margin-right: 0px;
+    }
+}

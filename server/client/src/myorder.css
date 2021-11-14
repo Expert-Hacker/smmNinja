@@ -1,0 +1,96 @@
+.ordered{
+    color: rgb(241, 238, 233);
+    background-color: rgb(170, 170, 169) !important;
+    padding: 0px !important;
+   text-align: center;
+   font-weight: 500;
+}
+.fa-filter{
+  font-size: 20px;
+  margin-top: 12px !important;
+   
+}
+.controlsmyorder{
+    display: flex;
+    justify-content: space-between;
+}
+.filterbox{
+    transition: 0.3s ease-in-out;
+    background-color: rgb(245, 233, 250);
+    position: absolute;
+    display: none;
+    border: 1px solid rgb(241, 190, 253)
+    
+}
+.completed{
+    color: rgb(19, 165, 0) !important;
+    background-color: rgb(209, 253, 200) !important;
+    padding: 0px !important;
+   text-align: center;
+   font-weight: 500;
+}
+.showfilterbox{
+    display: inline-block;
+    transition: 0.3s ease-in-out;
+}
+.filtertext{
+    line-height: 20px;
+    list-style: none;
+    color: rgb(155, 93, 182);
+    font-weight: 500;
+    font-family: 'Montserrat',sans-serif;
+}
+.filtertext:hover{
+    cursor: pointer;
+    color:rgb(84, 32, 107) ;
+}
+.myorderloaddiv{
+    height: 40vh;
+    /* width: 50vw; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inprogress{
+    color: rgb(41, 94, 240) !important;
+    background-color: rgb(207, 218, 247) !important;
+    padding: 0px !important;
+   text-align: center;
+   font-weight: 500;
+}
+.pending{
+    color: rgb(221, 170, 4) !important;
+    background-color: rgb(247, 235, 170) !important;
+    padding: 0px !important;
+   text-align: center;
+   font-weight: 500;
+}
+.cancelled{
+    color: rgb(255, 66, 19) !important;
+    background-color: rgb(243, 199, 198) !important;
+    padding: 0px !important;
+   text-align: center;
+   font-weight: 500;
+}
+.cancelledandferunded{
+    color: rgb(0, 197, 164) !important;
+    background-color: rgb(208, 243, 255) !important;
+    padding: 0px !important;
+   text-align: center;
+   font-weight: 500;
+
+}
+.noorderdiv{
+    height: 30vh;
+    display: flex;
+}
+@media only screen and (max-width:450px) {
+    .myordhead{
+        font-size: 22px;
+    }
+    .fa-filter{
+        font-size: 18px;
+        margin-top: 12px !important;
+         
+      }
+}

@@ -1,0 +1,67 @@
+
+.linkss{
+    
+  color: rgb(9, 165, 9);  
+}
+.container1{
+    border-bottom: 1px solid black;
+    font-family: 'Montserrat',sans-serif;
+}
+.linkss:hover{
+    cursor: pointer;
+}
+.selected{
+    background-color: rgb(250, 207, 121);
+    color: rgb(20, 20, 20);
+    font-weight: 700;
+}
+.paymentrozorpay{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(230, 234, 238);
+    color: rgb(117, 119, 121);
+    border-left: 4px solid black;
+}
+.paymentrozorpaydiv1{
+    display: flex;
+    flex-direction: column;
+}
+.paymentImag{
+    border: 1px solid rgb(204, 201, 201);
+}
+.paynow{
+    padding: 2px 20px 2px 20px !important;
+    display: inline-block;
+}
+.paymentscreen{
+    height: auto;
+    width: auto;
+    background-color: rgb(238, 236, 240);
+    display: flex;
+   
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.list_note{
+    list-style:circle;
+    line-height: 20px;
+}
+.paynowbtn{
+    background-color: chartreuse;
+}
+/* .payLogo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: center;
+} */
+@media only screen and (max-width:400px) {
+    .linkss{
+       padding: 10px 10px 10px 10px;
+    }
+    .selected{
+        background-color: rgb(250, 207, 121);
+        color: rgb(20, 20, 20);
+        font-weight: 700;
+    }
+}

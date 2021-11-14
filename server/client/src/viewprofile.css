@@ -1,0 +1,73 @@
+
+
+.viewprofile{
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    width: 50vw;
+}
+.myprfilr{
+    font-family: 'Roboto', sans-serif !important;
+}
+.center{
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+li{
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    padding: 8px 50px 8px 50px;
+}
+.transaction_div{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.tran_success{
+    font-size: 45px !important;
+}
+@media only screen and (max-width:1170px) {
+    .viewprofile{
+        width: 80vw;
+    }
+}
+@media only screen and (max-width:732px) {
+    .row_dy{
+        display: flex !important;
+        flex-direction: row !important; 
+    }
+    
+}
+
+@media only screen and (max-width:691px) {
+    .viewprofile{
+        width: 90vw;;
+    }
+    
+}
+@media only screen and (max-width:522px) {
+    li{
+    font-size: 15px !important;
+    
+    }
+    .myprfilr{
+        font-size: 22px !important;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+    
+}
+@media only screen and (max-width:450px) {
+    li{
+    font-size: 13px !important;
+    }
+    .myprfilr{
+        font-size: 20px !important;
+    }
+    
+}

@@ -1,0 +1,52 @@
+.ad_div1{
+    background-color: rgb(96, 125, 255);
+}
+.fa-sign-out-alt{
+    font-size: 20px;
+    color: rgb(250, 250, 250);
+}
+.fa-sign-out-alt:hover{
+    cursor: pointer;
+}
+.fa-trash-alt{
+    color: red;
+}
+.fa-trash-alt:hover{
+cursor: pointer;
+color: rgb(165, 17, 17);
+}
+
+.ad_tgl_menu{
+    display: none;
+    position: absolute;
+    background-color: rgb(37, 37, 36);
+    top: 56px;
+    transition: 1s ease-in-out;
+    outline: 0;
+    
+}
+.deleteStatus{
+    position: fixed;
+    top: 50px;
+    display: flex;
+    justify-content: center;
+    z-index: 999999;
+}
+.deleting{
+    background-color: rgb(255, 204, 62);
+    font-size: 30px;
+    padding: 5px 20px 5px 20px;
+}
+.show_hide_tgnmenu_ad{
+    display: inline-block;
+}
+.err_404{
+    height: 100vh;
+}
+.dialog_ad{
+    position: absolute !important;
+    top: 0px !important;
+}
+.ad_service{
+    height: 30px !important;
+}

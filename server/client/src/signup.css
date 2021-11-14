@@ -1,0 +1,83 @@
+.errorText{
+    background-color: red;
+    color: white;
+    font-size: 13px;
+    padding: 3px 10px 3px 10px;
+
+}
+.icons{
+    font-size: 24px !important;
+    margin-top: 20px;
+}
+.passwodHelp{
+    position: relative;
+    right: 10px;
+    top: 20px;
+    font-size: 20px;
+}
+.passwodHelp:hover{
+    cursor: pointer;
+}
+.passwodHelpDiv{
+    /* width: 300px; */
+    position: absolute;
+    left: auto;
+    z-index: 99999999;
+    display: none;   
+    border-radius: 6px;
+}
+.whatsappNum{
+    position: absolute;
+    left: auto;
+    z-index: 99999999;
+    display: none;   
+    border-radius: 6px;
+}
+.passwodHelpDiv p{
+    font-size: 13px;
+    padding: 6px 6px 0px 9px;
+}
+.TogglepasswodHelpDiv{
+display: inline;
+}
+
+.TogglewhatsappNum{
+    padding: 6px 6px 6px 6px;
+    display: inline;
+}
+.termsncond{
+    font-size: 17px;
+    margin-right: 0px;
+}
+@media only screen and (max-width:500px) {
+    .passwodHelpDiv p{
+        font-size: 11px;
+        
+    }
+    .passwodHelpDiv{
+        width: 300px;
+        position: absolute;
+        right: auto;
+        z-index: 99999999;
+        display: none;   
+    }
+    .TogglepasswodHelpDiv{
+        display: inline;
+        }
+        .whatsappNum{
+            width: 300px;
+            position: absolute;
+            right: auto;
+            z-index: 99999999;
+            display: none;
+        }
+        .TogglewhatsappNum{
+            display: inline;
+        }
+        .whatsappNum p{
+            font-size: 11px;
+            padding: 6px 6px 6px 6px;
+            margin: 0px;
+        }
+    
+}

@@ -1,0 +1,53 @@
+*{
+    font-family: 'Montserrat',sans-serif ;
+}
+.container .navigation li{
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    padding: 10px 10px 10px 10px;
+    color: white ;
+}
+.navigation{
+    /* background-color: rgb(187, 222, 245); */
+    background: #fe8c00;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f83600, #fe8c00);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f83600, #fe8c00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.container .navigation li:hover{
+    background-color:rgb(255, 206, 45);
+    border-bottom: 4px solid rgb(0, 0, 0);
+    cursor: pointer;
+    color: black;
+}
+.clikedonlink{
+    color: red;
+    /* background-color:rgb(233, 216, 233);
+    border-bottom: 4px solid rgb(204, 156, 204); */
+}
+.active{
+    background-color:rgb(255, 255, 255) !important;
+    border-bottom: 4px solid rgb(0, 0, 0);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: black !important;
+}
+@media only screen and (max-width:770px){
+    .container .navigation li .navigationLinks{
+        font-size: 15px !important;
+    }
+    .container .navigation li{
+        padding: 20px 3px 20px 3px;
+    }
+  
+   
+}
+@media only screen and (max-width:450px){
+    .container .navigation li .navigationLinks{
+        font-size: 14px !important;
+    }
+    .container .navigation li{
+        padding: 20px 3px 20px 3px;
+    }
+    
+}

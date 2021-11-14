@@ -1,0 +1,38 @@
+.footer{
+    height: auto;
+  
+  width: 100%;
+  bottom: 0px;
+  background: #00c6ff;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+.copyright{
+    color: rgb(255, 255, 255) !important;
+    background-color: rgb(0, 0, 0);
+    padding: 3px 20px 3px 20px;
+}
+.footer_copy{
+    /* background-color: rgb(231, 231, 231); */
+}
+@media only screen and (max-width:400px) {
+    .contactinfo{
+        font-size: 17px !important;
+    }
+
+
+}
+@media only screen and (max-width:503px){
+    .footer{
+        /* height: 45vh; */
+        height: auto;
+    }
+    .logoFooter{
+        display: flex;
+        flex-direction: column !important;
+    }
+    .rightFooter{
+        margin-top: 25px;
+    }
+}

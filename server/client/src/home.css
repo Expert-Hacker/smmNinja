@@ -1,0 +1,39 @@
+.home_body1{
+  height: auto;
+  width: auto;
+  display: flex;
+}
+.head_home, .img-fluid{
+margin-top: 80px !important;
+font-weight: 500;
+}
+.caption{
+  margin: 0px 23rem 30px 0px;
+}
+.head_home{
+  margin-bottom: 10px;
+}
+
+    
+       
+
+
+/* ------------------------------- media Query ------------------------------ */
+@media only screen and (max-width:415px){
+  .home_body1{
+    flex-direction: column;
+  }
+  .head_home{
+    font-size: 62px;
+  }
+  .caption{
+    margin: 12px 0rem 12px 0px;
+  }
+  .btnn{
+    width: 180px !important;
+  }
+  
+}
+@media only screen and (max-width:400px){
+    
+}

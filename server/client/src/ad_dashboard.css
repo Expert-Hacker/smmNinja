@@ -1,0 +1,23 @@
+
+
+.ad_cards1{
+    height: auto;
+    width: auto;
+    background-color: rgb(228, 255, 230);
+    margin:10px 20px 10px 20px !important
+}
+.ad_cards2{
+    height: auto;
+    width: auto;
+    background-color: rgb(223, 235, 252);
+    margin:10px 20px 10px 20px !important
+}
+.ad_cards3{
+    height: auto;
+    width: auto;
+    background-color: rgb(255, 228, 255);
+    margin:10px 20px 10px 20px !important
+}
+.fa-sync-alt:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,37 @@
+.neword{
+    background-color: paleturquoise;
+
+}
+.overflow1{
+    overflow-x: hidden !important;
+}
+.alert-danger{
+    background-color: red !important;
+    color: white !important;
+}
+.alert-danger h6{
+    color: white !important;
+}
+.errosubmit{
+    background-color: red;
+    padding: 5px 10px 5px 10px;
+    color: white;
+    border-radius: 5px;
+    
+}
+.errosubmit_addfnd{
+    font-size: 10px;
+    background-color: rgb(75, 238, 110);
+    color: black !important;
+    padding: 2px 4px 2px 4px;
+    border-radius: 5px;
+    margin-left: 4px !important;
+}
+.linksss ::placeholder{
+    opacity: 0.5;
+}
+@media only screen and (max-width:430px) {
+    .errosubmit{
+        font-size: 12px;
+    }
+}

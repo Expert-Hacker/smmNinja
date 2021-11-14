@@ -1,0 +1,112 @@
+.ticketlist{
+    background-color: rgb(170, 224, 255);
+}
+.allTickets{
+    height: 56vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(237, 245, 250);
+}
+.ticket_header{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.ticket_refresh{
+    font-size: 24px;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: rgb(87, 80, 86);
+}
+.ticket_list_bg{
+    background-color: rgb(230, 241, 252);
+    border: 1px solid rgb(204, 230, 255);
+    display: flex;  
+}
+.ticket_header1{
+    font-family: 'Montserrat',sans-serif ;
+}
+.subject_t{
+    font-size: 22px;
+    font-weight: 500;
+}
+.view-ticket{
+    background-color: rgb(230, 208, 250);
+}
+.user_tcket_div{
+    background: linear-gradient(
+    135deg,rgb(255,78,111),rgb(251,145,104));
+    width: 300px;
+    border-radius: 7px !important;
+    height: 60px;
+    overflow: auto;
+}
+.ad_tcket_div{
+    background: linear-gradient(
+    135deg,rgb(90, 78, 255),rgb(206, 160, 236));
+    width: 300px;
+    border-radius: 7px !important;
+    height: 60px;
+}
+.user_tcket{
+  
+    padding: 7px 3px 7px 10px !important; 
+    color: white;
+    font-size: 17px;
+}
+.msg_date{
+    font-size: 12px;
+    margin-left: 20px;
+    padding: 0px !important;
+}
+.msg_name{
+    font-size: 14px;
+    font-weight: 600;
+}
+.tick_name_date{
+    margin: 0px !important;
+    margin-left: 20px !important;
+}
+.tick_detils{
+    border: 1px dotted black;
+    font-size: 15px;
+    border-radius: 6px;
+}
+.ad_tick_msg{
+    background-color: blueviolet;
+    width: 200px;
+    color: white;
+    
+}
+.tick_usr{
+    border-radius: 0px !important;
+    background-color: brown !important;
+   border-radius: 30px !important;
+}
+.tick_admn{
+    border-radius: 0px !important;
+    background-color: rgb(101, 103, 255) !important;
+   border-radius: 30px !important;
+   font-size: 40px !important;
+   padding: 6px;
+   color: white;
+}
+.copy
+{    
+    font-size: 12px !important;
+    padding: 2px 1px 2px 1px !important;
+}
+.ttick_info{
+    display: inline;
+}
+.ticket_list_bg:hover{
+    cursor: pointer;
+}
+@media only screen and (max-width:566px) {
+    .updwnBtn{
+        position: fixed;
+        width: 100px;
+    }
+    
+}
